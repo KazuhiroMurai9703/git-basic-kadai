@@ -1,0 +1,34 @@
+/* Step1. */
+C:\Users\DDK\Desktop\SAMURAI_E\lessons>mkdir git_challenge
+C:\Users\DDK\Desktop\SAMURAI_E\lessons>cd git_challenge
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>git init
+Initialized empty Git repository in 
+
+/* Step2. */
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>type nul > hello_world.txt
+
+/* Step3. */
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) 92ef2d7] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>git add hello_world.txt
+
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>git commit -m "日本語訳を追記"
+[main fa4be47] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+/* Step4. */
+C:\Users\DDK\Desktop\SAMURAI_E\lessons\git_challenge>git log
+commit fa4be478e3bbd64728ef25f5cb567d97b1095a7c (HEAD -> main)
+Author: KazuhiroMurai9703 <wttnd788@gmail.com>
+Date:   Wed Apr 24 07:51:39 2024 +0900
+
+    日本語訳を追記
+
+commit 92ef2d71b705306d1be36ffc00e40f334a536f3c
+Author: KazuhiroMurai9703 <wttnd788@gmail.com>
+Date:   Wed Apr 24 07:50:34 2024 +0900
+
+    hello_world.txtを追加
